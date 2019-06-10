@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+LIBS:sepiapcb-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5CFE8E9A
+P 3200 2450
+F 0 "BT1" H 3318 2546 50  0000 L CNN
+F 1 "Battery_Cell" H 3318 2455 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 3200 2510 50  0001 C CNN
+F 3 "~" V 3200 2510 50  0001 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CFE94A7
+P 4600 2500
+F 0 "D2" H 4593 2716 50  0000 C CNN
+F 1 "LED" H 4593 2625 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4600 2500 50  0001 C CNN
+F 3 "~" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5CFF1212
+P 4200 2500
+F 0 "D1" H 4193 2716 50  0000 C CNN
+F 1 "LED" H 4193 2625 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4200 2500 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5CFF14FE
+P 5350 2500
+F 0 "D4" H 5343 2716 50  0000 C CNN
+F 1 "LED" H 5343 2625 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5350 2500 50  0001 C CNN
+F 3 "~" H 5350 2500 50  0001 C CNN
+	1    5350 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5CFF167D
+P 5000 2500
+F 0 "D3" H 4993 2716 50  0000 C CNN
+F 1 "LED" H 4993 2625 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm" H 5000 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 1950 5350 1950
+Wire Wire Line
+	4200 2850 4200 2650
+Wire Wire Line
+	4600 2850 4600 2650
+Connection ~ 4600 2850
+Wire Wire Line
+	4600 2850 4200 2850
+Wire Wire Line
+	5000 2850 5000 2650
+Wire Wire Line
+	5000 2850 5350 2850
+Wire Wire Line
+	5350 2850 5350 2650
+Connection ~ 5000 2850
+Wire Wire Line
+	4600 2850 5000 2850
+Wire Wire Line
+	4200 1950 4200 2350
+Connection ~ 5000 1950
+Wire Wire Line
+	4600 1950 4600 2350
+Connection ~ 4600 1950
+Wire Wire Line
+	4600 1950 5000 1950
+Wire Wire Line
+	4200 1950 4600 1950
+Wire Wire Line
+	4600 2850 4600 3050
+Wire Wire Line
+	4600 3050 4000 3050
+Wire Wire Line
+	3200 2550 3200 3050
+Wire Wire Line
+	3200 1650 3200 2250
+Wire Wire Line
+	5000 1950 5000 2350
+Wire Wire Line
+	5350 1950 5350 2350
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5D01BB3F
+P 4300 1650
+F 0 "SW1" H 4300 1935 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 4300 1844 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 4300 1650 50  0001 C CNN
+F 3 "~" H 4300 1650 50  0001 C CNN
+	1    4300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1550 4600 1550
+Wire Wire Line
+	4600 1550 4600 1950
+Wire Wire Line
+	3200 1650 3800 1650
+NoConn ~ 4500 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5CFFD18A
+P 4000 3050
+F 0 "#PWR?" H 4000 2800 50  0001 C CNN
+F 1 "GND" H 4005 2877 50  0000 C CNN
+F 2 "" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 3050
+Wire Wire Line
+	4000 3050 3200 3050
+$Comp
+L power:+3V0 #PWR?
+U 1 1 5CFFD583
+P 3800 1600
+F 0 "#PWR?" H 3800 1450 50  0001 C CNN
+F 1 "+3V0" H 3815 1773 50  0000 C CNN
+F 2 "" H 3800 1600 50  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1600 3800 1650
+Connection ~ 3800 1650
+Wire Wire Line
+	3800 1650 4100 1650
+$EndSCHEMATC
