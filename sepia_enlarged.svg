@@ -97,7 +97,7 @@
          style="fill:none;stroke:#000000;stroke-width:0.55000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;image-rendering:auto" />
     </g>
     <g
-       style="display:none"
+       style="display:inline"
        inkscape:label="sepia_body_edge_filled"
        id="g1023"
        inkscape:groupmode="layer">
@@ -304,7 +304,7 @@
        id="layer8"
        inkscape:label="tentaclepads"
        transform="translate(0,197)"
-       style="display:none">
+       style="display:inline">
       <path
          style="fill:none;stroke:#000000;stroke-width:0.29104164px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 43.507994,49.422722 c 0,0 0.02308,1.621524 -0.143042,2.445464 -0.166115,0.823939 -0.86357,2.445464 -0.86357,2.445464 l 5.067531,-3.242778 0.284026,-4.469902 z"
