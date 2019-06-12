@@ -20,7 +20,7 @@ U 1 1 5CFE8E9A
 P 3200 2450
 F 0 "BT1" H 3318 2546 50  0000 L CNN
 F 1 "Battery_Cell" H 3318 2455 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 3200 2510 50  0001 C CNN
+F 2 "Cell_Coin_Holders:Keystone_3003_CR2032_THT" V 3200 2510 50  0001 C CNN
 F 3 "~" V 3200 2510 50  0001 C CNN
 	1    3200 2450
 	1    0    0    -1  
