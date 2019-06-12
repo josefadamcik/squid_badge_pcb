@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sepiapcb-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -31,7 +30,7 @@ U 1 1 5CFF14FE
 P 5350 2500
 F 0 "D4" H 5343 2716 50  0000 C CNN
 F 1 "LED" H 5343 2625 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5350 2500 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 5350 2500 50  0001 C CNN
 F 3 "~" H 5350 2500 50  0001 C CNN
 	1    5350 2500
 	0    -1   -1   0   
@@ -42,7 +41,7 @@ U 1 1 5CFF167D
 P 5000 2500
 F 0 "D3" H 4993 2716 50  0000 C CNN
 F 1 "LED" H 4993 2625 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5000 2500 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 5000 2500 50  0001 C CNN
 F 3 "~" H 5000 2500 50  0001 C CNN
 	1    5000 2500
 	0    -1   -1   0   
@@ -133,7 +132,7 @@ U 1 1 5D017E85
 P 4300 2400
 F 0 "D1" V 4500 2050 50  0000 L CNN
 F 1 "LED_Dual_AACC" V 4600 1700 50  0000 L CNN
-F 2 "sepiapcb:sepia_footrprint_pcb" H 4330 2400 50  0001 C CNN
+F 2 "sepiapcb:sepia_footprint_enlarged_pcb" H 4330 2400 50  0001 C CNN
 F 3 "~" H 4330 2400 50  0001 C CNN
 	1    4300 2400
 	0    1    1    0   
