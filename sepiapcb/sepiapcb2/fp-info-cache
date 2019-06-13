@@ -1,4 +1,4 @@
-15955343160522896
+15960024349936896
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -65618,12 +65618,26 @@ BatteryHolder_THT_CR2032_Scratch
 0
 0
 sepiapcb
+brooch_pin_pad
+
+
+0
+1
+1
+sepiapcb
 LED_1206_3216Metric_ReverseMount_NoHole1.8x2.4mm
 LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 diode reverse
 0
 2
 2
+sepiapcb
+pin
+
+
+0
+0
+0
 sepiapcb
 sepia_footprint
 
@@ -65652,6 +65666,13 @@ sepia_footrprint_pcb
 0
 4
 4
+sepiapcb
+signature
+
+
+0
+0
+0
 sepiapcb
 tentacle_pad
 Tentacle pad - connect tht led
