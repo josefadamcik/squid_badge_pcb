@@ -133,7 +133,7 @@ U 1 1 5D017E85
 P 4300 2400
 F 0 "D1" V 4500 2050 50  0000 L CNN
 F 1 "LED_Dual_AACC" V 4600 1700 50  0000 L CNN
-F 2 "sepiapcb:sepia_footprint_enlarged_pcb" H 4330 2400 50  0001 C CNN
+F 2 "sepiapcb:sepia_footprint_enlarged_thttent_pcb" H 4330 2400 50  0001 C CNN
 F 3 "~" H 4330 2400 50  0001 C CNN
 	1    4300 2400
 	0    1    1    0   
