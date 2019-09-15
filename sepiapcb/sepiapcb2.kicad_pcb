@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -55,7 +55,7 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
+    (pad_size 1.8 1.8)
     (pad_drill 1.1)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
@@ -2176,7 +2176,7 @@
     )
   )
 
-  (gr_text "SepiaBadge\nrev 2" (at 65.4 45.09 20) (layer B.SilkS)
+  (gr_text "SepiaBadge\nrev 2" (at 64.84 45.85 20) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text @josefadamcik (at 43.5864 74.3204 40) (layer B.SilkS)
